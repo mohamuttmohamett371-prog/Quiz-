@@ -1,0 +1,44 @@
+{
+  "stories": [
+    {
+      "id": 1,
+      "category": "technology",
+      "title": "The Birth of the Internet",
+      "cover": "💻",
+      "readTime": 3,
+      "content": "In 1969, a small network called ARPANET connected four university computers in the United States. It was built to let researchers share information quickly. Over the next two decades, scientists improved the network's rules, allowing different computers to talk to each other using a common language. In 1991, Tim Berners-Lee introduced the World Wide Web, turning the internet into something ordinary people could use. Today, billions of devices are connected, and the internet has changed how we learn, work, and communicate forever."
+    },
+    {
+      "id": 2,
+      "category": "science",
+      "title": "The Discovery of Gravity",
+      "cover": "🍎",
+      "readTime": 2,
+      "content": "Sir Isaac Newton was sitting under an apple tree in the 1660s when he noticed an apple fall straight to the ground. This simple observation led him to wonder why objects always fall downward instead of sideways or upward. His thinking eventually produced the Law of Universal Gravitation, which explained that every object with mass attracts every other object. This discovery helped scientists understand planetary motion, tides, and the basic forces that hold our universe together."
+    },
+    {
+      "id": 3,
+      "category": "history",
+      "title": "The Construction of the Pyramids",
+      "cover": "🏺",
+      "readTime": 3,
+      "content": "Thousands of years ago, ancient Egyptians built massive stone pyramids as tombs for their pharaohs. The Great Pyramid of Giza, completed around 2560 BCE, stood as the tallest man-made structure in the world for more than 3,800 years. Workers used simple tools, ramps, and an enormous amount of organized labor to move and stack millions of heavy limestone blocks. The precision of these structures still amazes engineers today and shows the remarkable skill of early human civilization."
+    },
+    {
+      "id": 4,
+      "category": "islamic",
+      "title": "The Night Journey",
+      "cover": "🕌",
+      "readTime": 3,
+      "content": "Islamic tradition describes a remarkable night journey taken by the Prophet Muhammad (peace be upon him) from Makkah to Jerusalem, known as Al-Isra. From there, tradition holds that he ascended through the heavens in an event called Al-Mi'raj. This journey is remembered every year by Muslims around the world and is seen as a moment of deep spiritual significance, reminding believers of patience, faith, and devotion during difficult times."
+    },
+    {
+      "id": 5,
+      "category": "general",
+      "title": "How Honey Never Spoils",
+      "cover": "🍯",
+      "readTime": 2,
+      "content": "Archaeologists have found pots of honey in ancient Egyptian tombs that are thousands of years old and still perfectly edible. Honey resists spoiling because it has very little water content and is naturally acidic, which makes it nearly impossible for bacteria to grow inside it. Bees also add a special enzyme that produces hydrogen peroxide, giving honey extra protection. This combination makes honey one of the only foods that can truly last forever if stored properly."
+    }
+  ]
+}

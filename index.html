@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover, maximum-scale=1.0">
+<title>Quiz App — Created by Mohamud JK</title>
+<meta name="description" content="A premium modern quiz app with exams, stories, rewards, and progress tracking.">
+<meta name="theme-color" content="#1565ff">
+
+<!-- PWA -->
+<link rel="manifest" href="./manifest.json">
+<link rel="icon" href="./assets/icons/icon-32.png" sizes="32x32">
+<link rel="icon" href="./assets/icons/icon-192.png" sizes="192x192">
+<link rel="apple-touch-icon" href="./assets/icons/icon-180.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Quiz App">
+<meta name="mobile-web-app-capable" content="yes">
+
+<!-- Styles -->
+<link rel="stylesheet" href="./css/style.css">
+<link rel="stylesheet" href="./css/dark.css">
+<link rel="stylesheet" href="./css/light.css">
+<link rel="stylesheet" href="./css/animation.css">
+</head>
+<body class="theme-dark">
+
+<!-- ============================= SPLASH SCREEN ============================ -->
+<div class="splash-screen" id="splash-screen">
+  <img src="./assets/logo/logo.svg" alt="Quiz App" class="splash-logo">
+  <div class="splash-title">Quiz App</div>
+  <div class="splash-credit">Created by Mohamud JK</div>
+  <div class="splash-loader"></div>
+</div>
+
+<!-- ============================== OFFLINE BANNER =========================== -->
+<div class="offline-banner">📡 You're offline — showing saved content</div>
+
+<!-- ================================ APP SHELL ============================== -->
+<div id="app">
+
+  <header class="app-header">
+    <div class="brand">
+      <img src="./assets/icons/icon-72.png" alt="logo">
+      <span>Quiz App</span>
+    </div>
+    <div class="header-actions">
+      <button class="icon-btn" id="search-btn" title="Search">🔍</button>
+      <button class="icon-btn" id="theme-toggle-btn" title="Toggle theme">🌓</button>
+    </div>
+  </header>
+
+  <main id="page-container"></main>
+
+  <nav class="bottom-nav">
+    <button class="nav-item" data-route="/home"><span class="ico">🏠</span><span>Home</span></button>
+    <button class="nav-item" data-route="/quiz"><span class="ico">📝</span><span>Quiz</span></button>
+    <button class="nav-item" data-route="/exams"><span class="ico">⏱️</span><span>Exams</span></button>
+    <button class="nav-item" data-route="/stories"><span class="ico">📚</span><span>Stories</span></button>
+    <button class="nav-item" data-route="/profile"><span class="ico">👤</span><span>Profile</span></button>
+  </nav>
+
+  <button id="install-app-btn" class="hidden">⬇️ Install App</button>
+</div>
+
+<!-- ================================== SCRIPTS =============================== -->
+<script src="./js/storage.js"></script>
+<script src="./js/animations.js"></script>
+<script src="./js/router.js"></script>
+<script src="./js/quiz.js"></script>
+<script src="./js/rewards.js"></script>
+<script src="./js/profile.js"></script>
+<script src="./js/settings.js"></script>
+<script src="./js/app.js"></script>
+<script src="./js/register-sw.js"></script>
+</body>
+</html>

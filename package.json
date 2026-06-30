@@ -1,0 +1,16 @@
+{
+  "name": "quiz-app",
+  "version": "1.0.0",
+  "description": "A premium modern Quiz App PWA — built with HTML, CSS and JavaScript. Created by Mohamud JK.",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx serve . -l 8080",
+    "build": "echo 'Static PWA — no build step required'"
+  },
+  "keywords": ["quiz", "pwa", "trivia", "exam", "education", "android"],
+  "author": "Mohamud JK",
+  "license": "MIT",
+  "devDependencies": {
+    "serve": "^14.2.1"
+  }
+}

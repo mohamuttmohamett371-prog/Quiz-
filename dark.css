@@ -1,0 +1,14 @@
+/* ==========================================================================
+   Quiz App — Dark Theme
+   ========================================================================== */
+
+body.theme-dark{
+  --bg-gradient: radial-gradient(circle at top, #11183a 0%, #060a1c 60%);
+  --bg-solid: #0b1130;
+  --text-primary: #f5f7ff;
+  --glass-bg: rgba(255,255,255,0.06);
+  --glass-border: rgba(255,255,255,0.10);
+}
+
+body.theme-dark .icon-btn{ color: #f5f7ff; }
+body.theme-dark .result-circle::before{ background: #0b1130; }

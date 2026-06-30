@@ -1,0 +1,12 @@
+{
+  "badges": [
+    { "id": "first_quiz", "name": "First Steps", "icon": "🎯", "description": "Complete your first quiz", "condition": "quizzesCompleted >= 1" },
+    { "id": "ten_quiz", "name": "Quiz Explorer", "icon": "🧭", "description": "Complete 10 quizzes", "condition": "quizzesCompleted >= 10" },
+    { "id": "perfect_score", "name": "Perfectionist", "icon": "💯", "description": "Get a perfect score on a quiz", "condition": "perfectScores >= 1" },
+    { "id": "streak_3", "name": "On Fire", "icon": "🔥", "description": "Maintain a 3-day streak", "condition": "streak >= 3" },
+    { "id": "level_5", "name": "Rising Star", "icon": "⭐", "description": "Reach level 5", "condition": "level >= 5" },
+    { "id": "exam_master", "name": "Exam Master", "icon": "🏅", "description": "Pass 5 exams", "condition": "examsPassed >= 5" }
+  ],
+  "dailyReward": { "coins": 50, "xp": 20 },
+  "levelXpRequirement": 100
+}

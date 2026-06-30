@@ -1,0 +1,15 @@
+/* ==========================================================================
+   Quiz App — Light Theme
+   ========================================================================== */
+
+body.theme-light{
+  --bg-gradient: radial-gradient(circle at top, #eaf1ff 0%, #f7f9ff 60%);
+  --bg-solid: #ffffff;
+  --text-primary: #11183a;
+  --glass-bg: rgba(255,255,255,0.65);
+  --glass-border: rgba(20,30,80,0.10);
+}
+
+body.theme-light .icon-btn{ color: #11183a; }
+body.theme-light .result-circle::before{ background: #ffffff; }
+body.theme-light .splash-screen{ background: radial-gradient(circle at 50% 20%, #1a3bff 0%, #050a24 70%); }
